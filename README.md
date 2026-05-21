@@ -1,5 +1,28 @@
 # Automation Risk Prediction Using Occupational Skill Profiles
 
+## Project Background and Data Sources
+This project was executed for the Master’s Thesis of Anna de Ruig, in partial fulfillment of the requirements for the degree of Master of Science in Data Science & Society at the Tilburg School of Humanities and Digital Sciences (TSHD), Tilburg University.
+
+The original owners of the data retain ownership of the data during and after completion of this project.
+
+The datasets used in this project originate from the following sources:
+
+1. `Skills.txt`  
+   National Center for O*NET Development. (2025, August). *O*NET® 30.0 Database*.  
+   https://www.onetcenter.org/database.html
+
+2. `FO2013_data.csv`  
+   Frey, C. B., & Osborne, M. (2013). *The Future of Employment*.
+
+3. `ONET19_SOC18_crosswalk.csv`  
+   O*NET Research Center. (n.d.). *O*NET-SOC 2019 Occupations to 2018 SOC Occupations*.  
+   https://www.onetcenter.org/crosswalks.html#soc
+
+4. `SOC10_SOC18_crosswalk.csv`  
+   U.S. Bureau of Labor Statistics. (2020). *Crosswalk from the 2010 SOC to the 2018 SOC*.  
+   https://www.bls.gov/soc/2018/crosswalks_used_by_agencies.htm
+
+
 ## Project overview
 This project predicts occupational automation risk using skill profiles from O*NET and automation probabilities from Frey & Osborne (2013). The workflow includes data preparation, data merging, clustering, model training, model evaluation, and visualization.
 
