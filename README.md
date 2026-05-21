@@ -24,7 +24,7 @@ The datasets used in this project originate from the following sources:
 
 
 ## Project overview
-This project predicts occupational automation risk using skill profiles from O*NET and automation probabilities from Frey & Osborne (2013). The workflow includes data preparation, data merging, clustering, model training, model evaluation, and visualization.
+This project predicts occupational automation risk using skill profiles from O*NET and automation probabilities from Frey & Osborne (2013). The workflow includes data preparation, data merging, clustering, model training and model evaluation.
 
 ## Project workflow
 1. Skills pivot
@@ -48,9 +48,6 @@ This project predicts occupational automation risk using skill profiles from O*N
    - The full pipeline performs train/test splitting, hyperparameter tuning, model training, and evaluation.
    - To save time, the preloaded model pipeline can be used. This loads the trained models and avoids rerunning the grid search.
 
-5. Visualizations
-   - Final figures are generated using the visualization script.
-
 ## How to run the project
 
 ### Full workflow
@@ -60,4 +57,3 @@ python Skills_pivot.py
 python data_merge.py
 python clustering.py
 python model_pipeline.py
-python visualizations.py
